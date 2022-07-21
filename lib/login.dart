@@ -66,12 +66,12 @@ class _LoginState extends State<Login> {
                           Container(
                               alignment: Alignment.center,
                               padding: const EdgeInsets.all(10),
-                              child: Card(
+                              child: const Card(
                                 color: Colors.black12,
                                 elevation: 10,
                                 child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: const Text(
+                                  padding: EdgeInsets.all(8.0),
+                                  child: Text(
                                     'Musicc',
                                     style: TextStyle(
                                         color:
@@ -81,7 +81,7 @@ class _LoginState extends State<Login> {
                                   ),
                                 ),
                               )),
-                          Icon(Icons.login_rounded, size: 100),
+                          const Icon(Icons.login_rounded, size: 100),
                           Container(
                               alignment: Alignment.center,
                               padding: const EdgeInsets.all(10),
