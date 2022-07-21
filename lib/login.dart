@@ -40,7 +40,7 @@ class _LoginState extends State<Login> {
     TextEditingController nameController = TextEditingController();
     TextEditingController passwordController = TextEditingController();
     const snackBar = SnackBar(
-      content: Text('GEt lOsT niGGa!'),
+      content: Text('GEt lOsT!'),
     );
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.
