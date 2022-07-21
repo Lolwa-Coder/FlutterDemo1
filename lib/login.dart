@@ -85,8 +85,8 @@ class _LoginState extends State<Login> {
                           Container(
                               alignment: Alignment.center,
                               padding: const EdgeInsets.all(10),
-                              child: InkWell(
-                                child: const Text(
+                              child: const InkWell(
+                                child: Text(
                                   'Sign in',
                                   style: TextStyle(fontSize: 20),
                                 ),
